@@ -10,7 +10,7 @@ Book.prototype = {
 
 var book = new Book();
 
-console.log(book.getName());
+// console.log(book.getName());3
 
 Book.prototype.getUpperName = function() {
   return this.getName().toUpperCase();
